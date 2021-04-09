@@ -88,6 +88,12 @@ section {
   font-size: 40px;
   font-weight: 500;
   width: 200px;
+  -webkit-transform: translateY(80%);
+          transform: translateY(80%);
+}
+
+.features .section2-img {
+  text-align: center;
 }
 
 .features .section2-img img {
@@ -108,6 +114,8 @@ section {
   color: var(--btn-txt);
   border-radius: 20px;
   padding: 0.6em 3.3em;
+  -webkit-transform: translateX(112%);
+          transform: translateX(112%);
 }
 
 .secound-features .subHeading {

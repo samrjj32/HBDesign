@@ -73,8 +73,12 @@ section {
     font-size: 40px;
     font-weight: 500;
     width: 200px;
+    transform: translateY(80%);
   }
-
+  
+  .section2-img{
+    text-align: center;
+  }
   .section2-img img {
     width: 90%;
   }
@@ -88,7 +92,10 @@ section {
       color: var(--btn-txt);
       border-radius: 20px;
       padding: 0.6em 3.3em;
+      transform: translateX(112%);
+
     }
+
   }
 }
 
