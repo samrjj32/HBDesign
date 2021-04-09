@@ -87,9 +87,9 @@ section {
   top: 0;
   font-size: 40px;
   font-weight: 500;
-  width: 200px;
-  -webkit-transform: translateY(80%);
-          transform: translateY(80%);
+  width: 400px;
+  -webkit-transform: translateY(180%);
+          transform: translateY(180%);
 }
 
 .features .section2-img {
