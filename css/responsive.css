@@ -63,9 +63,9 @@
     top: 0;
     font-size: 40px;
     font-weight: 500;
-    width: 400px;
-    -webkit-transform: translateY(180%);
-            transform: translateY(180%);
+    width: 300px;
+    -webkit-transform: translateY(130%);
+            transform: translateY(130%);
   }
   .features .section2-img {
     text-align: center;
