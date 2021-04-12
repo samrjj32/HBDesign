@@ -1,1 +1,142 @@
-/* No CSS *//*# sourceMappingURL=responsive.css.map */
+@media only screen and (max-width: 600px) {
+  .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 10px;
+  }
+  .nav .nav-logo {
+    text-transform: uppercase;
+  }
+  .nav li {
+    list-style: none;
+  }
+  .nav .nav-content {
+    display: none;
+  }
+  .nav .nav-btn {
+    display: none;
+  }
+  section {
+    padding: 1em 2em;
+  }
+  .hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .hero .hero-img img {
+    width: 90%;
+  }
+  .hero .hero-left {
+    margin: auto;
+  }
+  .hero .hero-btn {
+    background-color: var(--text-color);
+    color: var(--btn-txt);
+    border-radius: 20px;
+    padding: 0.6em 3.3em;
+  }
+  .features {
+    position: relative;
+  }
+  .features .shape1 {
+    background-color: gainsboro;
+    width: 100%;
+    height: 260px;
+  }
+  .features .shape2 {
+    display: none;
+  }
+  .features .heading {
+    position: absolute;
+    top: 0;
+    font-size: 40px;
+    font-weight: 500;
+    width: 400px;
+    -webkit-transform: translateY(180%);
+            transform: translateY(180%);
+  }
+  .features .section2-img {
+    text-align: center;
+  }
+  .features .section2-img img {
+    width: 90%;
+  }
+  .features .features-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .features .features-btn a {
+    background-color: var(--text-color);
+    color: var(--btn-txt);
+    border-radius: 20px;
+    padding: 0.6em 3.3em;
+  }
+  .secound-features .subHeading {
+    text-align: center;
+  }
+  .secound-features .section3-img img {
+    width: 108%;
+  }
+  .third-features .subHeading {
+    text-align: center;
+  }
+  .third-features .section4-img img {
+    width: 100%;
+  }
+  .footer {
+    background-color: #dcdcdc;
+    height: 100%;
+    padding: 10% 15% 0 15%;
+  }
+  .footer .footer-content-sec {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  .footer .content-sec-item h3 {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    margin: 0 0 16px;
+    padding: 0;
+    text-transform: initial;
+  }
+  .footer .footer-content-sec ul {
+    list-style: none;
+    line-height: 1.6;
+    font-size: 14px;
+    padding: 0;
+  }
+  .footer .footer-content-sec ul li {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  .footer .footer-content-sec ul li:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

@@ -11,7 +11,7 @@ document.addEventListener("scroll", function (e) {
 
 
     text.style.top = (-scroll/20 ) + "%" ;
-    btn.style.marginLeft = (-scroll/10 ) + "%" ;
+    // btn.style.marginLeft = (-scroll/10 ) + "%" ;
     // img.style.right = (scroll/70 ) + "%" ;
     // text.style.fontSize=(scroll/6)+ "px" ;
   });
