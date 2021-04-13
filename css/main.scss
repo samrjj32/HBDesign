@@ -17,7 +17,7 @@ body {
   --square: gainsboro;
   --footer: #dcdcdc;
   --heading-text: var(--text-color);
-  --btn-bg:var(--text-color)
+  --hero-btn:black;
   margin: 0;
   overflow: scroll;
 }
@@ -28,7 +28,7 @@ body {
   --square: var(--darkMode-color);
   --footer: var(--darkMode-bg);
   --heading-text: var(--text-color);
-  --btn-bg:var(--darkMode-color);
+  --hero-btn:var(---darkMode-color)
   margin: 0;
   overflow: scroll;
 }
@@ -76,7 +76,7 @@ body {
     }
 
     .hero-btn {
-      background-color: var(--btn-bg);
+      background-color: var(--hero-btn);
       color: var(--btn-txt);
       border-radius: 20px;
       padding: 0.6em 3.3em;

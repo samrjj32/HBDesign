@@ -1,10 +1,19 @@
 :root {
   --line: #505162;
-  --dot: #F7F8FF;
-  --circle: #9EA0BE;
-  --duration: .3s;
-  --text: #9EA0BE;
+  --dot: #f7f8ff;
+  --circle: #9ea0be;
+  --duration: 0.3s;
+  --text: #9ea0be;
   cursor: pointer;
+}
+
+.switch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .switch input {
@@ -17,7 +26,7 @@
 
 .switch input + div:before, .switch input + div:after {
   --s: 1;
-  content: '';
+  content: "";
   position: absolute;
   height: 4px;
   top: 10px;
@@ -56,7 +65,7 @@
   --x: 0;
   --b: var(--circle);
   --s: 4px;
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
