@@ -5,11 +5,26 @@
   --text-color: black;
   --btn-txt: rgb(255, 255, 255);
   font-family: "Anton", sans-serif;
+  --darkMode-bg: black;
+  --darkMode-color: rgb(255, 255, 255);
 }
 
 body {
   background-color: var(--background-color);
   color: var(--text-color);
+  --square: gainsboro;
+  --footer: #dcdcdc;
+  --heading-text: var(--text-color);
+  margin: 0;
+  overflow: scroll;
+}
+
+.dark-mode {
+  background-color: var(--darkMode-bg);
+  color: var(--darkMode-color);
+  --square: var(--darkMode-color);
+  --footer: var(--darkMode-bg);
+  --heading-text: var(--text-color);
   margin: 0;
   overflow: scroll;
 }
@@ -74,7 +89,7 @@ body {
         grid-template-rows: 100px 100px 100px 100px 100px 100px;
   }
   .features .shape1 {
-    background-color: gainsboro;
+    background-color: var(--square);
     width: 100%;
     -ms-grid-column: 1;
         grid-column-start: 1;
@@ -84,7 +99,7 @@ body {
     grid-row-end: 3;
   }
   .features .shape2 {
-    background-color: gainsboro;
+    background-color: var(--square);
     height: 100%;
     width: 250px;
     -ms-grid-column: 1;
@@ -105,6 +120,7 @@ body {
     font-size: 40px;
     font-weight: 500;
     width: 400px;
+    color: var(--heading-text);
   }
   .features .section2-img {
     text-align: center;
@@ -166,7 +182,7 @@ body {
     width: 100%;
   }
   .footer {
-    background-color: #dcdcdc;
+    background-color: var(--footer);
     height: 100%;
     padding: 10% 15% 0 15%;
   }
@@ -200,5 +216,15 @@ body {
     opacity: 1;
     cursor: pointer;
   }
+}
+
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+  -webkit-transition: all 950ms !important;
+  transition: all 950ms !important;
+  -webkit-transition-delay: 0 !important;
+          transition-delay: 0 !important;
 }
 /*# sourceMappingURL=main.css.map */
