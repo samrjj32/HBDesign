@@ -1,3 +1,26 @@
+:root {
+  --primary-color: #007af3;
+  --background-color: #f9f9f9;
+  --text-color: black;
+  --btn-txt: rgb(255, 255, 255);
+  font-family: "Anton", sans-serif;
+  --darkMode-bg: black;
+  --darkMode-color: rgb(255, 255, 255);
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  --square: gainsboro;
+  --footer: #dcdcdc;
+  --heading-text: var(--text-color);
+  --hero-btn: black;
+  --featured-btn: black;
+  --featured-btn-clr:var(--btn-txt);
+  margin: 0;
+  overflow: scroll;
+}
+
 @media only screen and (max-width: 600px) {
   .nav {
     display: -webkit-box;
@@ -42,7 +65,7 @@
     margin: auto;
   }
   .hero .hero-btn {
-    background-color: var(--text-color);
+    background-color: var(--hero-btn);
     color: var(--btn-txt);
     border-radius: 20px;
     padding: 0.6em 3.3em;
@@ -51,7 +74,7 @@
     position: relative;
   }
   .features .shape1 {
-    background-color: gainsboro;
+    background-color: var(--square);
     width: 100%;
     height: 260px;
   }
@@ -66,6 +89,7 @@
     width: 300px;
     -webkit-transform: translateY(130%);
             transform: translateY(130%);
+    color: var(--heading-text);
   }
   .features .section2-img {
     text-align: center;
@@ -82,7 +106,7 @@
             justify-content: center;
   }
   .features .features-btn a {
-    background-color: var(--text-color);
+    background-color: var(--hero-btn);
     color: var(--btn-txt);
     border-radius: 20px;
     padding: 0.6em 3.3em;
@@ -100,7 +124,7 @@
     width: 100%;
   }
   .footer {
-    background-color: #dcdcdc;
+    background-color: var(--footer);
     height: 100%;
     padding: 10% 15% 0 15%;
   }
