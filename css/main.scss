@@ -6,7 +6,6 @@
   --text-color: black;
   --btn-txt: rgb(255, 255, 255);
   font-family: "Anton", sans-serif;
-  
   --darkMode-bg: black;
   --darkMode-color: rgb(255, 255, 255);
 }
@@ -17,7 +16,9 @@ body {
   --square: gainsboro;
   --footer: #dcdcdc;
   --heading-text: var(--text-color);
-  --hero-btn:black;
+  --hero-btn: black;
+  --featured-btn: black;
+  --featured-btn-clr:var(--btn-txt);
   margin: 0;
   overflow: scroll;
 }
@@ -28,7 +29,10 @@ body {
   --square: var(--darkMode-color);
   --footer: var(--darkMode-bg);
   --heading-text: var(--text-color);
-  --hero-btn:var(---darkMode-color)
+  --hero-btn: var(--darkMode-color);
+  --btn-txt: var(--darkMode-bg);
+  --featured-btn:var(--darkMode-bg);
+  --featured-btn-clr:rgb(255, 255, 255);
   margin: 0;
   overflow: scroll;
 }
@@ -140,8 +144,8 @@ body {
       grid-row-start: 6;
       margin-left: 45px;
       a {
-        background-color: var(--hero-btn);
-        color: var(--btn-txt);
+        background-color: var(--featured-btn);
+        color: var(--featured-btn-clr);
         border-radius: 20px;
         padding: 0.6em 3.3em;
         transform: translateX(112%);
