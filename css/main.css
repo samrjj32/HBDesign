@@ -90,8 +90,8 @@ body {
     position: relative;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 200px 200px 200px 200px 200px 200px;
-        grid-template-columns: 200px 200px 200px 200px 200px 200px;
+    -ms-grid-columns: 200px 200px 200px 200px;
+        grid-template-columns: 200px 200px 200px 200px;
     -ms-grid-rows: 100px 100px 100px 100px 100px 100px;
         grid-template-rows: 100px 100px 100px 100px 100px 100px;
   }
@@ -138,7 +138,7 @@ body {
         grid-row-start: 1;
   }
   .features .section2-img img {
-    width: 90%;
+    width: 120%;
   }
   .features .features-btn {
     -ms-grid-column: 1;
